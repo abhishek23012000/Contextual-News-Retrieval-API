@@ -10,11 +10,11 @@ app = FastAPI(
 
 router = APIRouter(prefix="/api/v1/news")
 
-@app.on_event("startup")
-def on_startup():
-    """Initialize the database and load data on application startup."""
-    database.init_database()
-    database.load_articles_from_json("news_data.json")
+# @app.on_event("startup")
+# def on_startup():
+#     """Initialize the database and load data on application startup."""
+#     database.init_database()
+#     database.load_articles_from_json("news_data.json")
 
 
 @router.get(
@@ -146,3 +146,4 @@ async def get_trending(
 app.include_router(router)
 
     
+
