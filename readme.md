@@ -1,4 +1,3 @@
----
 
 # Contextual News Retrieval API
 
@@ -13,7 +12,6 @@ The system showcases the ability to:
 *   Implement a location-based trending news algorithm based on simulated user engagement.
 *   Expose a clean, RESTful API built with FastAPI.
 
----
 
 ## 2. System Architecture
 
@@ -125,4 +123,5 @@ These endpoints provide direct access to data without complex query analysis.
     The API will be live at `http://127.0.0.1:8000`. The interactive documentation is available at `http://127.0.0.1:8000/docs`.
 
 ---
+
 
