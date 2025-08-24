@@ -49,6 +49,8 @@ The API provides both a single "intelligent" endpoint and several direct-access 
 
 **Base URL**: `http://127.0.0.1:8000`
 
+<img width="1919" height="840" alt="image" src="https://github.com/user-attachments/assets/1577761d-f34b-474b-87c3-ccabd511d005" />
+
 ### Intelligent Endpoint
 
 This endpoint uses the LLM to automatically determine the user's intent.
@@ -95,7 +97,7 @@ These endpoints provide direct access to data without complex query analysis.
 
 ---
 
-<img width="1919" height="840" alt="image" src="https://github.com/user-attachments/assets/1577761d-f34b-474b-87c3-ccabd511d005" />
+
 
 
 ## 6. Setup and Installation
@@ -123,5 +125,6 @@ These endpoints provide direct access to data without complex query analysis.
     The API will be live at `http://127.0.0.1:8000`. The interactive documentation is available at `http://127.0.0.1:8000/docs`.
 
 ---
+
 
 
