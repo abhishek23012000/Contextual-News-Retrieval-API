@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]  
+pydantic
+python-dotenv
+google-generativeai
+langchain
+langchain-google-genai
+geopy             
+aiofiles  
+cachetools
+pygeohash     
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abhishek23012000/Contextual-News-Retrieval-API.git
+git push -u origin main
